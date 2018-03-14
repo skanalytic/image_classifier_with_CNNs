@@ -1,5 +1,5 @@
 # image_classifier_with_CNNs
-A machine vision project which uses Conventional Neural Networks (CNNs) to classify images 
+A small machine vision project I did which uses Conventional Neural Networks (CNNs) to cluster images 
 
 Instructions:
 
