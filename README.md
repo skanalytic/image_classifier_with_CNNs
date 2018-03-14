@@ -1,14 +1,19 @@
 # image_classifier_with_CNNs
 A small machine vision project I did which uses Conventional Neural Networks (CNNs) to cluster images 
 
-Instructions:
-
-- Use X to download input images to feed the classifier (I used images of Big ben and the Taj Mahal but you can use whatever you want!)
-- Open X and change the source input file to wherever you saved the input images
-- Run the program to create a cluster model of the images 
-- Use X to check how well the model performed (obviously for the real assignement we had to infer this) as we did not have labelled data
-- Enjoy. Comments and feedback welcome! 
-
-Notes:
+Notes on data inputs:
 
 - Images have been replaced with public images due to private NDA. Source code remains the same though model performance results / optimization parameters will obviously differ because of differing input data.
+
+- I used the 'Bulk Image Downloaded' chrome pluggin (https://chrome.google.com/webstore/detail/bulk-image-downloader/lamfengpphafgjdgacmmnpakdphmjlji) to download a couple of hundred images of Big Ben and the Taj Mahal but you can use whatever you want!)
+
+Instructions:
+
+1- If you want to use your own images, make sure to delete the current contents of 'training_images' and replace it with your own images 
+2- Then open 'CNN_cluster_model.ipynb' (Jupyter notebook) file and run the code! 
+3- Cluster outputs will be saved in 'training_images/imagecluster'
+4- Enjoy. Comments and feedback welcome! 
+
+Further Optimization notes:
+
+- If you want to further optimize this clustering algoirthm then play around with the 'sim' variable which controls the similairty level cutoff for the reduced images. Please remember to split your data into training/validation/testing sets if you do this (using the training set to train the model, the validation set to optimize similarity threshold, and final testing set to check performance metrics... otherwise the model will likely become overfit to your training set). Thanks. 
