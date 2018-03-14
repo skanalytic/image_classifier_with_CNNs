@@ -9,10 +9,11 @@ Notes on data inputs:
 
 Instructions:
 
-1- If you want to use your own images, make sure to delete the current contents of 'training_images' and replace it with your own images 
-2- Then open 'CNN_cluster_model.ipynb' (Jupyter notebook) file and run the code! 
-3- Cluster outputs will be saved in 'training_images/imagecluster'
-4- Enjoy. Comments and feedback welcome! 
+- If you want to use your own images, make sure to delete the current contents of 'training_images' and replace it with your own images 
+- Then open 'CNN_cluster_model.ipynb' (Jupyter notebook) file and run the code! 
+- the output variable 'df' will contain a panda dataframe of the image name and its assigned cluster for analysis
+- Cluster outputs will also be saved in 'training_images/imagecluster' to later analysis 
+- Enjoy. Comments and feedback welcome! 
 
 Further Optimization notes:
 
